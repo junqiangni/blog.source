@@ -14,6 +14,8 @@ description: hexo+github
 
 3.[https://www.cnblogs.com/liuxianan/p/build-blog-website-by-hexo-github.html](https://www.cnblogs.com/liuxianan/p/build-blog-website-by-hexo-github.html)
 
+<!--more-->
+
 ### 持续化集成
 
 1.https://formulahendry.github.io/2016/12/04/hexo-ci/#more
