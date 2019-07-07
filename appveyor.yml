@@ -5,6 +5,7 @@ environment:
     secure: JhMqdlpKMsPUB3bJ5VEsk5dZxx/cVcX6uOy4Z/DB/y4eYWGj/ecWLRjRf4EMyV7d
 
 install:
+  - ps: Install-Product node 12.6.0 # 默认node版本太老
   - node --version
   - npm --version
   - npm install
