@@ -84,7 +84,7 @@ $ hexo new "post title with whitespace"
 
 > 1.生成指定名称的文章至*hexo\source\_posts\postName.md*。或直接在source\_posts中写文档（注意格式）
 >
-> ```java
+> ```shell
 > ---
 > title: postName #文章页面上的显示名称，可以任意修改，不会出现在URL中
 > date: 2013-12-02 15:30:16 #文章生成时间，一般不改，当然也可以任意修改categories: #文章分类目录，可以为空，注意:后面有个空格
@@ -100,9 +100,8 @@ $ hexo new "post title with whitespace"
 >
 > ```shell
 > 在合适的位置加上<!--more--> 即可
-> 
 > ```
->
+> 
 
 ###### generate
 
@@ -152,14 +151,14 @@ Hexo 提供了快速方便的一键部署功能，让您只需一条命令就能
 $ hexo d
 ```
 
->在开始之前，您必须先在 `_config.yml` 中修改参数，一个正确的部署配置中至少要有 `type` 参数，例如
->
->```shell
->deploy:
->	type: git
-> 	repository: git@github.com:yourusername/yourusername.github.io.git
-> 	branch: master
->```
+在开始之前，您必须先在 `_config.yml` 中修改参数，一个正确的部署配置中至少要有 `type` 参数，例如
+
+```shell
+deploy:
+	type: git
+	repository: git@github.com:yourusername/yourusername.github.io.git
+	branch: master
+```
 
 #### [主题](https://hexo.io/zh-cn/docs/themes)
 
