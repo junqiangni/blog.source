@@ -82,26 +82,25 @@ $ hexo new [layout] <title>
 $ hexo new "post title with whitespace"
 ```
 
+内容格式			
+
+```shell
+---
+title: postName #文章页面上的显示名称，可以任意修改，不会出现在URL中
+date: 2019-06-30 21:30:16 #文章生成时间，一般不改，当然也可以任意修改categories: #文章分类目录，可以为空，注意:后面有个空格
+tags: #文章标签，可空，多标签请用格式[tag1,tag2,tag3]，注意:后面有个空格
+---
+这里开始使用markdown格式输入你的正文。
+
+```
+
 > 1.生成指定名称的文章至*hexo\source\_posts\postName.md*。或直接在source\_posts中写文档（注意格式）
 >
-> ```shell
-> ---
-> title: postName #文章页面上的显示名称，可以任意修改，不会出现在URL中
-> date: 2013-12-02 15:30:16 #文章生成时间，一般不改，当然也可以任意修改categories: #文章分类目录，可以为空，注意:后面有个空格
-> tags: #文章标签，可空，多标签请用格式[tag1,tag2,tag3]，注意:后面有个空格
-> ---
-> 这里开始使用markdown格式输入你的正文。
-> 
-> ```
->
 > 2.写博客工具 [Typora网站](https://www.typora.io/)  [下载](https://www.typora.io/windows/typora-setup-x64.exe?)
->
-> 3.博文列表不显示全部内容
->
-> ```shell
-> 在合适的位置加上<!--more--> 即可
-> ```
 > 
+> 3.博文列表不显示全部内容
+> 
+> ​	在合适的位置加上<!--more--> 即可
 
 ###### generate
 
