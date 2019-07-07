@@ -1,11 +1,12 @@
 clone_depth: 5
 
 environment:
+  nodejs_version: "12"
   access_token:
     secure: JhMqdlpKMsPUB3bJ5VEsk5dZxx/cVcX6uOy4Z/DB/y4eYWGj/ecWLRjRf4EMyV7d
 
 install:
-  - ps: Install-Product node 12.6.0 # 默认node版本太老
+  - ps: Install-Product node $env:nodejs_version # 默认node版本太老
   - node --version
   - npm --version
   - npm install
