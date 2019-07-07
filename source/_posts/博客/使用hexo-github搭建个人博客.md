@@ -99,8 +99,10 @@ tags: #文章标签，可空，多标签请用格式[tag1,tag2,tag3]，注意:�
 > 2.写博客工具 [Typora网站](https://www.typora.io/)  [下载](https://www.typora.io/windows/typora-setup-x64.exe?)
 > 
 > 3.博文列表不显示全部内容
-> 
-> ​	在合适的位置加上<!--more--> 即可
+
+```shell
+<!--more--> #在合适的位置加上即可
+```
 
 ###### generate
 
